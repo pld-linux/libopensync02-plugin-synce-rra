@@ -18,6 +18,7 @@ BuildRequires:	synce-rra-devel >= 0.16
 Requires:	synce-core >= 0.16
 Requires:	libopensync02 >= 1:0.22
 Obsoletes:	libopensync-plugin-synce-rra < 0.30
+Obsoletes:	synce-multisync_plugin
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
