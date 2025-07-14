@@ -30,7 +30,7 @@ wersji 2005.
 
 %prep
 %setup -q -n libopensync-plugin-synce-rra-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure
